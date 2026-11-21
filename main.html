@@ -4,9 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+        .main {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+
+            /* Center the box */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .text {
+            color: purple;
+
+            /* Center the text inside the box */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
+	
+    <div class="main">
+        <p class="text">This is center.</p>
+    </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
